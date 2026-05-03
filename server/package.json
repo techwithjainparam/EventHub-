@@ -1,20 +1,23 @@
 {
   "name": "eventhub-server",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [
-    "event",
-    "booking"
-  ],
-  "license": "ISC",
-  "author": "Param",
-  "type": "commonjs",
+  "description": "Backend server for EventHub event booking app",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No tests specified\" && exit 0"
   },
+  "author": "Param",
+  "license": "ISC",
+  "keywords": [
+    "event",
+    "booking",
+    "backend",
+    "express",
+    "nodejs"
+  ],
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "cors": "^2.8.6",
@@ -26,7 +29,6 @@
     "nodemailer": "^8.0.7"
   },
   "devDependencies": {
-    "@types/node": "^25.6.0",
     "nodemon": "^3.1.14"
   }
 }
